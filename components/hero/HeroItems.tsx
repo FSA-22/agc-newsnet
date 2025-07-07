@@ -27,7 +27,7 @@ const HeroSection = () => {
         <div className="flex items-center gap-4">
           <div className="w-px h-6 bg-white/30" />
           <ul className="flex gap-3 text-sm font-medium">
-            {heroCategories.map(({ id, label, href }) => (
+            {heroCategories.map(({ id, label }) => (
               <li key={id} className="px-2 hover-underline cursor-pointer">
                 {label}
               </li>
